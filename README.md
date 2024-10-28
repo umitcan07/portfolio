@@ -1,54 +1,27 @@
-# Astro Starter Kit: Basics
+# Hey! I'm Ümit Can.
 
-```sh
-npm create astro@latest -- --template basics
-```
+I'm a product engineer [@inploi](https://www.inploi.com/) and a senior computer engineering student, passionate about blending engineering and design methodologies to create impactful web experiences.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Experience
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Product Engineer [@inploi](https://www.inploi.com/)
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Extracurricular
 
-## 🚀 Project Structure
+- BuCode (Nov 2023 - Present)
+  > Responsible for design & development of print material, social media posts, and website.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Education
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Computer Engineering, Boğaziçi University (2020 - Present)
+  > 3.53 GPA
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Contact
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| Platform  | Link                                                             |
+| --------- | ---------------------------------------------------------------- |
+| Github    | [/umitcan07](https://github.com/umitcan07)                       |
+| X         | [/ucedesign](https://x.com/ucedesign)                            |
+| LinkedIn  | [/umitcanevleksiz](https://www.linkedin.com/in/umitcanevleksiz/) |
+| Instagram | [/umitcan_07](https://www.instagram.com/umitcan_07)              |
+| Email     | [umitcanevleksiz@gmail.com](mailto:umitcanevleksiz@gmail.com)    |
