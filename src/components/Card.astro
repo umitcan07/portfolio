@@ -1,9 +1,35 @@
 ---
 interface Props {
-	title: string;
-	body: string;
-	href: string;
+  title: string;
+  body: string;
+  label?: string;
+  link?: string;
 }
 
-const { href, title, body } = Astro.props;
+const { title, body, label, link } = Astro.props;
 ---
+
+<div class="flex flex-col gap-1">
+  <div class="flex gap-2 items-center justify-between">
+    <h3 class="text-md text-slate-950 dark:text-slate-200">
+      {
+        link ? (
+          <a
+            class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-orange-400"
+            href={link}
+          >
+            {title}
+          </a>
+        ) : (
+          title
+        )
+      }
+    </h3>
+    {
+      label && (
+        <span class="text-sm text-slate-500 dark:text-slate-400">{label}</span>
+      )
+    }
+  </div>
+  <p class="text-sm text-slate-500 dark:text-slate-600 text-balance">{body}</p>
+</div>
