@@ -1,7 +1,7 @@
 export const experiences = [
   {
     title: "inploi",
-    label: "Jan 2024 — present",
+    label: "Jan 2024 — Present",
     body: "Responsible for developing and maintaining web applications and extensions for the hiring industry in a product-oriented fashion.",
     link: "https://www.inploi.com/",
   },
@@ -13,7 +13,7 @@ export const experiences = [
   },
   {
     title: "Winden",
-    label: "Aug 2023 — Oct 2023",
+    label: "Dec 2022 — Jul 2023",
     body: "Web Application & Website Development for fintech",
     link: "https://www.winden.co/",
   },
@@ -35,6 +35,7 @@ export const extracurriculars = [
     title: "Epicons | Design Asset",
     body: "A set of 2000+ pixel perfect icons",
     link: "https://www.epicons.co/",
+    label: "2021",
   },
   {
     title: "BuCode | Student Organization",
@@ -44,7 +45,7 @@ export const extracurriculars = [
   },
   {
     title: "BUPAL | Student Organization",
-    label: "July 2024 - present",
+    label: "July 2024 - Present",
     body: "Designer",
   },
 ];
