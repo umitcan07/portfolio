@@ -9,16 +9,19 @@ export const experiences = [
     title: "Rex / BabylonAI",
     label: "Aug 2023 — Oct 2023",
     body: "Web Application for fitness & exercising. Internship.",
+    link: "https://www.rex.fit/",
   },
   {
     title: "Winden",
     label: "Aug 2023 — Oct 2023",
     body: "Web Application & Website Development for fintech",
+    link: "https://www.winden.co/",
   },
   {
     title: "Magna",
     label: "Aug 2022 — Dec 2022",
     body: "Web Application & Website Development for web3",
+    link: "https://magna.so/",
   },
   {
     title: "BlueReceipt / Scale",
@@ -50,6 +53,7 @@ export const education = [
     title: "Boğaziçi University, Istanbul",
     body: "Computer Engineering",
     label: "3.53 / 4",
+    link: "https://bogazici.edu.tr/",
   },
   {
     title: "High School",

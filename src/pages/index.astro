@@ -1,6 +1,7 @@
 ---
 import Card from "../components/Card.astro";
 import Icon from "../components/Icon.astro";
+import Link from "../components/Link.astro";
 import {
   education,
   experiences,
@@ -10,7 +11,7 @@ import {
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Portfolio" />
+<Layout title="Ümit Can Evleksiz" />
 <main
   class="container mx-auto max-w-screen-sm md:pt-20 pt-12 pb-20 gap-10 flex flex-col"
 >
@@ -84,50 +85,20 @@ import Layout from "../layouts/Layout.astro";
       <h2 class="mt-1">Contact</h2>
     </div>
     <div
-      class="flex flex-col items-start gap-4 text-md text-slate-950 dark:text-slate-200 text-sm"
+      class="flex flex-wrap items-start gap-6 text-md text-slate-950 dark:text-slate-200 text-sm"
     >
-      <a
-        href="mailto:evleksizumitcan@gmail.com"
-        target="_blank"
-        class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400"
-      >
-        evleksizumitcan@gmail.com
-      </a>
-      <a
-        href="https://github.com/umitcan07"
-        target="_blank"
-        class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400"
-      >
-        Github
-      </a>
-      <a
-        href="https://www.linkedin.com/in/umitcanevleksiz/"
-        target="_blank"
-        class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400"
-      >
-        LinkedIn
-      </a>
-      <a
-        href="https://x.com/umitcan07"
-        target="_blank"
-        class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400"
-      >
-        X
-      </a>
-      <a
-        href="https://www.youtube.com/channel/UCQUQ71kGjbJtvP-9Ji_Ks9A"
-        target="_blank"
-        class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400"
-      >
-        YouTube
-      </a>
-      <a
-        href="https://www.instagram.com/umitcan07/"
-        target="_blank"
-        class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400"
-      >
-        Instagram
-      </a>
+      <Link title="Email" link="mailto:evleksizumitcan@gmail.com" />
+      <Link title="X (Twitter)" link="https://x.com/ucedesign" />
+      <Link title="Github" link="https://github.com/umitcan07" />
+      <Link
+        title="LinkedIn"
+        link="https://www.linkedin.com/in/umitcanevleksiz/"
+      />
+      <Link
+        title="YouTube"
+        link="https://www.youtube.com/channel/UCQUQ71kGjbJtvP-9Ji_Ks9A"
+      />
+      <Link title="Instagram" link="https://www.instagram.com/umitcan07/" />
     </div>
   </section>
 </main>

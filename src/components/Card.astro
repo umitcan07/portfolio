@@ -1,4 +1,6 @@
 ---
+import Link from "../components/Link.astro";
+
 interface Props {
   title: string;
   body: string;
@@ -12,18 +14,7 @@ const { title, body, label, link } = Astro.props;
 <div class="flex flex-col gap-1">
   <div class="flex gap-2 items-center justify-between">
     <h3 class="text-md text-slate-950 dark:text-slate-200">
-      {
-        link ? (
-          <a
-            class="hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400"
-            href={link}
-          >
-            {title}
-          </a>
-        ) : (
-          title
-        )
-      }
+      {link ? <Link title={title} link={link} /> : title}
     </h3>
     {
       label && (
