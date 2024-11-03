@@ -1,3 +1,14 @@
+export const techStack = [
+  "TypeScript",
+  "React",
+  "Python",
+  "C",
+  "Figma",
+  "Adobe Illustrator",
+  "Webflow",
+  "+99 more...",
+];
+
 export const experiences = [
   {
     title: "inploi",
