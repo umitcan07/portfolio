@@ -25,20 +25,24 @@ const iconNameToPathData: Record<IconName, string> = {
 };
 ---
 
-<svg
-  width={size}
-  height={size}
-  viewBox="0 0 24 24"
-  fill="none"
-  class="text-current"
-  xmlns="http://www.w3.org/2000/svg"
+<div
+  class="flex items-center justify-center bg-slate-200 dark:bg-slate-800 p-2 rounded-md"
 >
-  <g
-    stroke="currentColor"
-    stroke-width="1.5"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    class="text-current"
+    xmlns="http://www.w3.org/2000/svg"
   >
-    <path d={iconNameToPathData[name]}></path>
-  </g>
-</svg>
+    <g
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d={iconNameToPathData[name]}></path>
+    </g>
+  </svg>
+</div>

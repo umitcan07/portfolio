@@ -13,10 +13,12 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Ümit Can Evleksiz" />
 <main
-  class="container mx-auto max-w-screen-sm md:pt-20 pt-12 pb-20 gap-6 flex flex-col"
+  class="container mx-auto max-w-screen-md md:pt-20 pt-12 pb-20 gap-6 flex flex-col"
 >
   <section class="px-4">
     <img
+      height="64"
+      width="64"
       class="rounded-full w-16 h-16 mb-3"
       src="/img.jpeg"
       alt="Umit Can Evleksiz"
@@ -24,7 +26,7 @@ import Layout from "../layouts/Layout.astro";
     <h1 class="text-2xl text-slate-800 dark:text-slate-200">
       Hey! I'm Ümit Can.
     </h1>
-    <p class="text-md font-normal text-slate-500 mt-2 text-balance">
+    <p class="text-md font-normal text-slate-500 mt-2">
       I'm a product engineer & senior computer engineering student, passionate
       about blending engineering and design methodologies to create impactful
       web experiences.
@@ -32,11 +34,13 @@ import Layout from "../layouts/Layout.astro";
     <hr class="border-slate-300 dark:border-slate-800 mt-6" />
   </section>
   <section class="flex flex-col gap-6 px-4">
-    <div class="flex gap-3 items-center leading-6 text-lg text-slate-500">
+    <div
+      class="flex gap-3 items-center leading-6 text-slate-500 dark:text-slate-300"
+    >
       <Icon name="experience" />
-      <h2 class="mt-1 flex-1">Experience</h2>
+      <h2 class="flex-1">Experience</h2>
       <a
-        class="text-xs text-slate-500 hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400 flex gap-1 items-center"
+        class="text-xs text-slate-500 dark:text-slate-300 hover:underline underline-offset-2 hover:text-cyan-700 dark:hover:text-cyan-400 flex gap-1 items-center"
         href="/resume.pdf">Resume</a
       >
     </div>
@@ -46,9 +50,11 @@ import Layout from "../layouts/Layout.astro";
     <hr class="border-slate-300 dark:border-slate-800" />
   </section>
   <section class="flex flex-col gap-6 px-4">
-    <div class="flex gap-3 items-center leading-6 text-lg text-slate-500">
+    <div
+      class="flex gap-3 items-center leading-6 text-slate-500 dark:text-slate-300"
+    >
       <Icon name="extracurricular" />
-      <h2 class="mt-1">Extracurricular</h2>
+      <h2>Extracurricular</h2>
     </div>
     <div class="flex flex-col gap-4">
       {extracurriculars.map((item) => <Card {...item} />)}
@@ -56,9 +62,11 @@ import Layout from "../layouts/Layout.astro";
     <hr class="border-slate-300 dark:border-slate-800" />
   </section>
   <section class="flex flex-col gap-6 px-4">
-    <div class="flex gap-3 items-center leading-6 text-lg text-slate-500">
+    <div
+      class="flex gap-3 items-center leading-6 text-slate-500 dark:text-slate-300"
+    >
       <Icon name="education" />
-      <h2 class="mt-1">Education</h2>
+      <h2>Education</h2>
     </div>
     <div class="flex flex-col gap-4">
       {education.map((item) => <Card {...item} />)}
@@ -66,9 +74,11 @@ import Layout from "../layouts/Layout.astro";
     <hr class="border-slate-300 dark:border-slate-800" />
   </section>
   <section class="flex flex-col gap-6 px-4">
-    <div class="flex gap-3 items-center leading-6 text-lg text-slate-500">
+    <div
+      class="flex gap-3 items-center leading-6 text-slate-500 dark:text-slate-300"
+    >
       <Icon name="personal" />
-      <h2 class="mt-1">Personal</h2>
+      <h2>Personal</h2>
     </div>
     <div class="flex flex-col gap-4">
       {personal.map((item) => <Card {...item} />)}
@@ -76,9 +86,11 @@ import Layout from "../layouts/Layout.astro";
     <hr class="border-slate-300 dark:border-slate-800" />
   </section>
   <section class="flex flex-col gap-6 px-4">
-    <div class="flex gap-3 items-center leading-6 text-lg text-slate-500">
+    <div
+      class="flex gap-3 items-center leading-6 text-slate-500 dark:text-slate-300"
+    >
       <Icon name="contact" />
-      <h2 class="mt-1">Contact</h2>
+      <h2>Contact</h2>
     </div>
     <div
       class="flex flex-wrap items-start gap-6 text-md text-slate-950 dark:text-slate-200 text-sm"
