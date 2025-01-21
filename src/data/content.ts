@@ -83,6 +83,10 @@ export const personal = [
     body: "Night driving with sedan cars, 2 lanes, and mild curvature",
   },
   {
+    title: "Stargazing",
+    body: "That's how I find the love.",
+  },
+  {
     title: "Music",
     body: "Bright & Electronic, Sia, Instrumental Post Rock",
   },
