@@ -64,7 +64,7 @@ export const education = [
   {
     title: "Boğaziçi University, Istanbul",
     body: "Computer Engineering",
-    label: "3.53 / 4",
+    label: "3.80 / 4",
     link: "https://bogazici.edu.tr/",
   },
   {
@@ -80,11 +80,11 @@ export const personal = [
   },
   {
     title: "Driving",
-    body: "Sedan cars, 4 lanes, and mild curvature",
+    body: "Night driving with sedan cars, 2 lanes, and mild curvature",
   },
   {
     title: "Music",
-    body: "Bright & Electronic, Sia",
+    body: "Bright & Electronic, Sia, Instrumental Post Rock",
   },
   {
     title: "Gaming",
