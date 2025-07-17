@@ -12,7 +12,7 @@ export const techStack = [
 export const experiences = [
   {
     title: "inploi",
-    label: "Jan 2024 — Present",
+    label: "Jan 2024 — May 2025",
     body: "Responsible for developing and maintaining web applications and extensions for the hiring industry in a product-oriented fashion.",
     link: "https://www.inploi.com/",
   },
