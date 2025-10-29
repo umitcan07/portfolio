@@ -6,7 +6,7 @@ export const techStack = [
   "Figma",
   "Adobe Illustrator",
   "Webflow",
-  "+99 more...",
+  "+999 more...",
 ];
 
 export const experiences = [
@@ -51,15 +51,16 @@ export const extracurriculars = [
   {
     title: "BuCode | Student Organization",
     link: "https://bucodecomp.com",
-    label: "Nov 2023 - present",
+    label: "2023 - 2024",
     body: "Designer & Developer",
   },
   {
     title: "BUPAL | Student Organization",
     label: "July 2024 - Present",
-    body: "Designer",
+    body: "Design & Social Media",
   },
 ];
+
 export const education = [
   {
     title: "Boğaziçi University, Istanbul",
@@ -73,6 +74,7 @@ export const education = [
     label: "99.73 / 100",
   },
 ];
+
 export const personal = [
   {
     title: "Mathematics",
@@ -80,15 +82,15 @@ export const personal = [
   },
   {
     title: "Driving",
-    body: "Night driving with sedan cars, 2 lanes, and mild curvature",
+    body: "Night-driving, sedan, 2-lanes, mild curvature",
   },
   {
     title: "Stargazing",
-    body: "That's how I find the love.",
+    body: "That's how I find the light.",
   },
   {
     title: "Music",
-    body: "Bright & Electronic, Sia, Instrumental Post Rock",
+    body: "Instrumental Post Rock, Drone, Ambient ..:::.. GY!BE",
   },
   {
     title: "Gaming",

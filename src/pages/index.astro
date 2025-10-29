@@ -116,3 +116,13 @@ import Layout from "../layouts/Layout.astro";
     <hr class="border-slate-300 dark:border-slate-800" />
   </section>
 </main>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const moreButton = document.querySelector('[data-more-button="true"]');
+    if (moreButton) {
+      moreButton.addEventListener("click", () => {
+        moreButton.textContent = "Seriously?";
+      });
+    }
+  });
+</script>

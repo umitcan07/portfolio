@@ -4,10 +4,12 @@ interface Props {
 }
 
 const { label } = Astro.props;
+const isMoreButton = label.includes("+999 more");
 ---
 
 <span
-  class="text-xs px-2.5 py-1.5 rounded-sm ring-slate-200 ring-1 text-slate-500 dark:ring-slate-800 hover:bg-slate-200 hover:dark:bg-slate-800 transition-all select-none dark:text-slate-300 font-normal"
+  class={`text-xs px-2.5 py-1.5 rounded-sm ring-slate-200 ring-1 text-slate-500 dark:ring-slate-800 hover:bg-slate-200 hover:dark:bg-slate-800 transition-all select-none dark:text-slate-300 font-normal ${isMoreButton ? "cursor-pointer" : ""}`}
+  data-more-button={isMoreButton ? "true" : undefined}
 >
   {label}
 </span>
