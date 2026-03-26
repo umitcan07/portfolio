@@ -3,6 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
+    "resume": "pdflatex -output-directory=/tmp/resume-build src/data/main.tex && cp /tmp/resume-build/main.pdf public/resume.pdf",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
