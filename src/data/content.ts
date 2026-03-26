@@ -1,15 +1,22 @@
 export const techStack = [
-	"TypeScript",
+	"TS",
 	"React",
 	"Python",
 	"C",
+	"C#",
+	"Unity",
 	"Figma",
 	"Adobe Illustrator",
-	"Webflow",
 	"+999 more...",
 ];
 
 export const experiences = [
+	{
+		title: "Good Job Games",
+		label: "Mar 2026 — Present",
+		body: "Game Developer. Mobile game development in Unity. <br> Match Villains, a 2D casual puzzle game",
+		link: "https://www.goodjobgames.com/",
+	},
 	{
 		title: "inploi",
 		label: "Jan 2024 — May 2025",
